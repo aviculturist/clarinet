@@ -194,7 +194,7 @@ where
         Block::default()
             .borders(Borders::NONE)
             .style(Style::default().fg(Color::White))
-            .title("Block Informations"),
+            .title("Block Information"),
     );
     f.render_widget(paragraph, area);
 
